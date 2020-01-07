@@ -1,0 +1,27 @@
+{
+  "name": "erecruit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "dev-test": "nodemon dev-test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skd6699/blockchain.git"
+  },
+  "author": "Saikiran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skd6699/blockchain/issues"
+  },
+  "homepage": "https://github.com/skd6699/blockchain#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  }
+}
