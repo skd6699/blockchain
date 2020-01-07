@@ -19,7 +19,7 @@ class Block{
 
     static genesis() {
         //call without creatng new instance
-        return new this('Genesis Time', '----', 'f1r57-h45h', [])
+        return new this('Genesis Time', '----', 'f1r57-h45h', []);
     }
     
     static mineBlock(lastBlock, data) {
